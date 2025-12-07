@@ -13,3 +13,7 @@
 | UUID LDAP attribute     | ipaUniqueID                                      |
 | Use Truststore SPI      | Only for ldaps                                   |
 
+#create users<br>ipa user-add testuser \
+ --first=Test \
+ --last=User \
+ --password
